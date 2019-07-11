@@ -1,0 +1,17 @@
+#WANJI TECHNOLOGY
+#NAV Layout data
+#FileFormat: 1.0
+#WLR-712
+#Used Layers:
+#LayerID #landmarks
+#  000        4
+#
+globID     x[mm]     y[mm] type subtype size[mm] layer1 layer2 layer3
+000000     20840     14484    1       2       75      0
+000001     10532     14523    1       2       75      0
+000002      1110      4044    1       2       75      0
+000003     10504     -1918    1       2       75      0
+54.7
+20
+17
+73.1

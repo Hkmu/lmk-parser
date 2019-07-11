@@ -1,0 +1,15 @@
+{
+  "name": "lmk-parser",
+  "version": "0.0.1",
+  "description": "Parse lmk file and generate AutoCAD command",
+  "bin": "index.js",
+  "scripts": {
+    "build": "pkg -t node8-win-x64 -o lmk-parser index.js",
+    "debug": "pkg --d -t node8-win-x64 -o lmk-parser index.js"
+  },
+  "author": "HEJIE<jack.hj@linkores.com>",
+  "license": "MIT",
+  "dependencies": {
+    "winston": "^3.2.1"
+  }
+}

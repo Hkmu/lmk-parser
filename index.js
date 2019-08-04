@@ -7,8 +7,8 @@ const logger = winston.createLogger({
   level: 'info',
   format: winston.format.simple(),
   transports: [
-    new winston.transports.File({ filename: './lmk_parser/error.log', level: 'error' }),
-    new winston.transports.File({ filename: './lmk_parser/run.log', level: 'info' }),
+    new winston.transports.File({ filename: './lmk_parser_log/error.log', level: 'error' }),
+    new winston.transports.File({ filename: './lmk_parser_log/run.log', level: 'info' }),
   ]
 });
 
